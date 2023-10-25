@@ -1,55 +1,35 @@
-var btn = document.getElementById('btnlight');
-btn.addEventListener("click", function(){
-  document.getElementById('box').classList.toggle("open-box");
-});
+function openBox1() {
+    var x = document.getElementById("lightbox");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
 
-function toggleCLass() {
-   var myBoxClasses = document.getElementsByClassName('box').classList;
-   if (myBoxClasses.contains("box-scale")) {
-       myBoxClasses.remove("box-scale");
-   } else {
-       myBoxClasses.add("box-scale");
-   }
-}
+  function openBox2() {
+    var x = document.getElementById("micbox");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
 
-var btn = document.getElementById('btnmic');
-btn.addEventListener("click", function(){
-  document.getElementById('box').classList.toggle("open-box");
-});
+  function openBox3() {
+    var x = document.getElementById("speakbox");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
 
-function toggleCLass() {
-   var myBoxClasses = document.getElementsByClassName('box').classList;
-   if (myBoxClasses.contains("box-scale")) {
-       myBoxClasses.remove("box-scale");
-   } else {
-       myBoxClasses.add("box-scale");
-   }
-}
-
-var btn = document.getElementById('btnspeak');
-btn.addEventListener("click", function(){
-  document.getElementById('box').classList.toggle("open-box");
-});
-
-function toggleCLass() {
-   var myBoxClasses = document.getElementsByClassName('box').classList;
-   if (myBoxClasses.contains("box-scale")) {
-       myBoxClasses.remove("box-scale");
-   } else {
-       myBoxClasses.add("box-scale");
-   }
-}
-
-var btn = document.getElementById('btnear');
-btn.addEventListener("click", function(){
-  document.getElementById('box').classList.toggle("open-box");
-});
-
-function toggleCLass() {
-   var myBoxClasses = document.getElementsByClassName('box').classList;
-   if (myBoxClasses.contains("box-scale")) {
-       myBoxClasses.remove("box-scale");
-   } else {
-       myBoxClasses.add("box-scale");
-   }
-}
+  function openBox4() {
+    var x = document.getElementById("earbox");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
