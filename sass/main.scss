@@ -5,6 +5,15 @@ model-viewer {
     background-color: #efefef;
     margin: 0 auto;
   }
+
+  .Hotspot {
+    background: url(../images/hotspot.svg) center no-repeat;
+    border: 0px;
+    width: 45px;
+    height: 38px;
+    transition: all 1s ease-in-out;
+  } 
+  
   .Hotspot:not([data-visible]) {
     opacity: 0;
     pointer-events: none;
